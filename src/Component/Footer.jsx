@@ -71,7 +71,7 @@ const Footer = () => {
 
           {/* X (Twitter) */}
           <a
-            href="https://x.com/yourxhandle"
+            href="https://x.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-900 transition-colors duration-300"
