@@ -95,7 +95,7 @@ const Footer = () => {
 
       {/* Curved Bottom Shape */}
      {/* Curved Top Shape (Flipped Upward) */}
-<div className="absolute top-0 left-0 w-full overflow-hidden leading-[0] rotate-180">
+<div className="absolute top-0 left-0 w-full overflow-hidden leading-0 rotate-180">
 </div>
     </footer>
   );

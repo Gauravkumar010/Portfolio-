@@ -68,7 +68,7 @@ const About = () => {
 
             <motion.button
               onClick={() => window.open("/Resume_Up.pdf", "_blank")}
-              className="bg-yellow-500 hover:bg-yellow-600 text-white font-medium px-6 py-2 rounded-md shadow"
+              className="bg-yellow-500 hover:bg-yellow-600 text-white font-medium px-6 py-2 rounded-full shadow"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

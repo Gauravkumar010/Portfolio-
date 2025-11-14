@@ -25,7 +25,7 @@ const Navbar = () => {
             <li key={item}>
               <a
                 href={`#${item.toLowerCase()}`}
-                className="relative hover:text-yellow-500 transition duration-300 after:content-[''] after:block after:h-[2px] after:w-0 after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full"
+                className="relative hover:text-yellow-500 transition duration-300 after:content-[''] after:block after:h-0.5 after:w-0 after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full"
               >
                 {item}
               </a>
