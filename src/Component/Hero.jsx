@@ -55,20 +55,25 @@ const Hero = () => {
             transition={{ delay: 0.8, duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <motion.button
+            <motion.a
+              href="#projects"
               className="bg-yellow-500 hover:bg-yellow-600 text-white font-medium px-5 py-2 rounded-md shadow"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               Projects
-            </motion.button>
-            <motion.button
-              className="border border-gray-400 hover:bg-gray-100 px-5 py-2 rounded-md font-medium"
+            </motion.a>
+
+            <motion.a
+              href="https://www.linkedin.com/in/gaurav-kumar-4b925322b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-gray-400 hover:bg-gray-100 px-5 py-2 rounded-md font-medium inline-block"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               LinkedIn
-            </motion.button>
+            </motion.a>
           </motion.div>
         </motion.div>
 

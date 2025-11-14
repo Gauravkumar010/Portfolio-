@@ -1,29 +1,31 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { image } from "framer-motion/client";
 
 const projects = [
   {
-    title: "Yoga App",
+    title: "GreenCart E-Commerce Website",
     description:
-      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
-    image: "/ittar2.jpg",
-    // link: "#",
+      "GreenCart is a modern e-commerce site built for fast, clean, and user-friendly product browsing.",
+    image: "/project.png",
+    link: "https://greencart-gs.vercel.app/",
   },
+
   {
-    title: "Portfolio Website",
+    title:" ArtHub-Blockchain ODOP Platform",
     description:
-      "A responsive personal portfolio built using React, Tailwind CSS, and Framer Motion animations.",
-    image: "/photo1.jpg",
+      "A MERN + Ethereum blockchain marketplace with secure payments, real-time seller ranking, inventory tracking, and direct buyer–seller connection without middlemen.",
+      image: "/project2.png"
     // link: "#",
   },
-  {
-    title: "E-commerce UI",
-    description:
-      "Designed a sleek and minimal UI for an e-commerce platform using React and Tailwind CSS.",
-    image: "/images/project3.jpg",
-    // link: "#",
-  },
+  // {
+  //   title: "E-commerce UI",
+  //   description:
+  //     "Designed a sleek and minimal UI for an e-commerce platform using React and Tailwind CSS.",
+  //   image: "/images/project3.jpg",
+  //   // link: "#",
+  // },
 ];
 
 export default function Projects() {
@@ -56,10 +58,7 @@ export default function Projects() {
   const project = projects[index];
 
   return (
-    <section
-      className="py-20"
-      id="projects"
-    >
+    <section className="py-20" id="projects">
       <div className="max-w-6xl mx-auto px-6">
         {/* Title */}
         <h2 className="text-3xl font-bold text-gray-900 mb-12">
@@ -103,7 +102,7 @@ export default function Projects() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="rounded-r-3xl w-full h-[400px] object-cover"
+                  className="rounded-3xl w-full h-[400px] object-contain bg-white"
                 />
               </div>
             </motion.div>

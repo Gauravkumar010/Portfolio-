@@ -29,7 +29,7 @@ const Footer = () => {
         >
           {/* Email */}
           <a
-            href="mailto:gaurav@example.com"
+            href="mailto:gauravit013@gmail.com"
             className="hover:text-gray-900 transition-colors duration-300 "
             aria-label="Email"
           >
@@ -38,7 +38,7 @@ const Footer = () => {
 
           {/* GitHub */}
           <a
-            href="https://github.com/yourgithubusername"
+            href="https://github.com/Gauravkumar010/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-900 transition-colors duration-300"
@@ -49,7 +49,7 @@ const Footer = () => {
 
           {/* Instagram */}
           <a
-            href="https://instagram.com/yourinstagram"
+            href="https://instagram.com/gaurav010_"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-900 transition-colors duration-300"
@@ -60,7 +60,7 @@ const Footer = () => {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/yourlinkedin"
+            href="https://www.linkedin.com/in/gaurav-kumar-4b925322b/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-900 transition-colors duration-300"
